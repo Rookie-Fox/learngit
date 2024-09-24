@@ -124,3 +124,4 @@ void LCD_ShowNumber(uint8_t row, uint8_t col, int num)
     snprintf(buffer, sizeof(buffer), "%d", num); // 将整数转换为字符串
     LCD_ShowLine(row, col, buffer); // 调用显示字符串的函数显示数字
 }
+this is test1
